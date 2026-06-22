@@ -1,0 +1,146 @@
+[
+  {
+    "slug": "taklaggare",
+    "name": "Takläggare",
+    "title": "Marknadsföring för takläggare",
+    "keyword": "marknadsföring för takläggare",
+    "intro": "Takjobb är stora beslut för kunden — och konkurrensen om dem är hård. Vi ser till att ditt takföretag syns när någon söker efter takbyte eller takläggning, och att de väljer dig framför grannfirman.",
+    "pains": [
+      "Takbyten är dyra jobb och kunden jämför ofta flera firmor — den som syns och svarar snabbast vinner.",
+      "Många takläggare lever på rekommendationer, men tappar jobb när kunden googlar och inte hittar en seriös hemsida.",
+      "Säsongen är kort. När taket läcker vill kunden ha hjälp nu — då måste du finnas högst upp i sökningen."
+    ],
+    "fitServices": ["google-ads", "seo", "hemsida"],
+    "fitNote": "Google Ads ger snabba förfrågningar i högsäsong, SEO bygger långsiktig synlighet för 'takbyte' och 'takläggare', och en hemsida som visar tidigare tak bygger förtroende för ett dyrt jobb.",
+    "faq": [
+      {
+        "q": "Får jag fler takbyten eller bara småjobb?",
+        "a": "Vi riktar annonser och innehåll mot de sökningar du vill ha — vill du ha takbyten styr vi mot det och bort från småjobb som inte lönar sig."
+      },
+      {
+        "q": "Funkar det fast taksäsongen är kort?",
+        "a": "Ja, vi anpassar insatsen efter säsong. Många takläggare kör Google Ads hårdare i högsäsong och håller SEO igång året runt."
+      }
+    ]
+  },
+  {
+    "slug": "elektriker",
+    "name": "Elektriker",
+    "title": "Marknadsföring för elektriker",
+    "keyword": "marknadsföring för elektriker",
+    "intro": "Från laddbox och felsökning till hela installationer — kunderna söker elektriker på Google varje dag. Vi ser till att ditt elföretag dyker upp för de jobb du vill ha, i det område du jobbar.",
+    "pains": [
+      "Elbranschen har många aktörer och kunden litar inte på vem som helst med sin el — du behöver synas som det trygga, behöriga valet.",
+      "Lönsamma jobb som laddboxar och installationer kräver att du finns där när kunden söker, inte bara när olyckan är framme.",
+      "Akuta elfel googlas direkt — finns du inte högst upp ringer kunden någon annan."
+    ],
+    "fitServices": ["google-ads", "hemsida", "seo"],
+    "fitNote": "Google Ads fångar akuta och köpvilliga sökningar direkt, en tydlig hemsida visar din behörighet och dina tjänster, och SEO bygger synlighet för 'elektriker' och tjänster som laddbox.",
+    "faq": [
+      {
+        "q": "Kan jag styra mot lönsamma jobb som laddbox?",
+        "a": "Ja. Vi bygger kampanjer och sidor riktade mot just de tjänster du tjänar bäst på, och nedprioriterar sökningar som inte lönar sig."
+      },
+      {
+        "q": "Hur visar jag att jag är behörig?",
+        "a": "Vi lyfter din behörighet och dina tjänster tydligt på hemsidan så att kunden känner sig trygg innan de ens ringer."
+      }
+    ]
+  },
+  {
+    "slug": "snickare",
+    "name": "Snickare",
+    "title": "Marknadsföring för snickare",
+    "keyword": "marknadsföring för snickare",
+    "intro": "Altaner, kök, om- och tillbyggnader — snickerijobb är ofta projekt där kunden vill se vad du kan innan de väljer. Vi hjälper dig att visa ditt hantverk och få fler av de jobb du vill ha.",
+    "pains": [
+      "Snickerijobb är visuella — kunden vill se tidigare projekt, men många snickare har inga bilder ute där kunderna letar.",
+      "Du vill ha större projekt som altaner och tillbyggnader, men får mest småfix för att marknadsföringen inte är riktad.",
+      "Mun-till-mun räcker när det går bra, men torkar ut snabbt när konjunkturen viker — då behövs en kanal du styr själv."
+    ],
+    "fitServices": ["hemsida", "sociala-medier", "seo"],
+    "fitNote": "En hemsida med projektbilder bygger förtroende för större jobb, sociala medier visar ditt hantverk löpande, och SEO fångar dem som söker snickare i ditt område.",
+    "faq": [
+      {
+        "q": "Jag har inga proffsbilder — funkar det ändå?",
+        "a": "Ja. Bra mobilbilder på dina jobb räcker långt. Vi hjälper dig att få ut dem på rätt sätt så att de bygger förtroende."
+      },
+      {
+        "q": "Kan jag få fler stora projekt i stället för småfix?",
+        "a": "Ja, vi riktar innehåll och annonser mot de projekt du vill ha — altaner, kök, tillbyggnader — i stället för allt på en gång."
+      }
+    ]
+  },
+  {
+    "slug": "vvs",
+    "name": "VVS",
+    "title": "Marknadsföring för VVS-företag",
+    "keyword": "marknadsföring för VVS",
+    "intro": "Vattenläckor och värmepumpar väntar inte. När kunden behöver en rörmokare söker de direkt — vi ser till att ditt VVS-företag finns högst upp, både för akuta jobb och planerade installationer.",
+    "pains": [
+      "VVS-jobb är ofta akuta — en läcka googlas på sekunden och den som syns först får samtalet.",
+      "Lönsamma installationer som värmepumpar konkurrerar många om; du behöver synas både i sök och annonser.",
+      "Många VVS-företag har fullt upp idag men inget som fyller på när det väl blir lugnare — en jämn ström av förfrågningar saknas."
+    ],
+    "fitServices": ["google-ads", "seo", "hemsida"],
+    "fitNote": "Google Ads fångar akuta sökningar direkt, SEO bygger synlighet för 'rörmokare' och 'värmepump', och en tydlig hemsida gör det enkelt att ringa direkt från mobilen.",
+    "faq": [
+      {
+        "q": "Får jag in akuta jobb snabbt?",
+        "a": "Ja, Google Ads gör att du syns högst upp för akuta sökningar redan samma vecka, med ett nummer som är ett tryck bort på mobilen."
+      },
+      {
+        "q": "Kan ni hjälpa mig fylla på när det blir lugnare?",
+        "a": "Det är precis poängen. Med en jämn synlighet i sök och annonser bygger du en ström av förfrågningar i stället för toppar och dalar."
+      }
+    ]
+  },
+  {
+    "slug": "byggforetag",
+    "name": "Byggföretag",
+    "title": "Marknadsföring för byggföretag",
+    "keyword": "marknadsföring för byggföretag",
+    "intro": "Om- och tillbyggnader, renoveringar och totalentreprenader — stora jobb kräver stort förtroende. Vi hjälper ditt byggföretag att synas seriöst och dra in de projekt som är värda din tid.",
+    "pains": [
+      "Större byggprojekt är förtroendebeslut — kunden måste känna sig trygg innan de släpper in dig, och det avgörs ofta redan på hemsidan.",
+      "Du vill ha helhetsprojekt, inte spridda småjobb, men marknadsföringen är inte riktad mot rätt kunder.",
+      "Konkurrensen om bra projekt är hård, och utan synlighet i sök är du beroende av att rätt person råkar rekommendera dig."
+    ],
+    "fitServices": ["hemsida", "seo", "google-ads"],
+    "fitNote": "En genomarbetad hemsida med tidigare projekt bygger förtroendet stora jobb kräver, SEO fångar dem som söker byggföretag och renovering, och Google Ads ger snabba förfrågningar när du vill fylla på.",
+    "faq": [
+      {
+        "q": "Hur drar jag till mig större projekt?",
+        "a": "Vi bygger en hemsida och ett innehåll som visar att ni klarar stora jobb, och riktar synligheten mot de projekt ni vill ha snarare än allt på en gång."
+      },
+      {
+        "q": "Hur bygger jag förtroende online?",
+        "a": "Med tidigare projekt, tydlig information om hur ni jobbar och en professionell sida. Förtroendet avgörs ofta innan kunden ens ringer."
+      }
+    ]
+  },
+  {
+    "slug": "malare",
+    "name": "Målare",
+    "title": "Marknadsföring för målare",
+    "keyword": "marknadsföring för målare",
+    "intro": "Inomhus, utomhus och fasad — målerijobb är visuella och perfekta att visa upp. Vi hjälper ditt måleri att synas i ditt område och få fler av de jobb du vill ha, året runt.",
+    "pains": [
+      "Måleri är säsongsbetonat — utomhusjobb på sommaren, inomhus på vintern — och du behöver synas för rätt jobb vid rätt tid.",
+      "Resultatet är väldigt visuellt, men många målare har inga före/efter-bilder ute där kunderna ser dem.",
+      "Mycket går på rekommendation, men det räcker inte för att fylla kalendern jämnt över året."
+    ],
+    "fitServices": ["sociala-medier", "hemsida", "seo"],
+    "fitNote": "Sociala medier och en hemsida med före/efter-bilder visar ditt resultat och bygger förtroende, medan SEO och annonser fångar dem som söker målare i ditt område — anpassat efter säsong.",
+    "faq": [
+      {
+        "q": "Hur hanterar ni att jobben är säsongsbetonade?",
+        "a": "Vi anpassar budskap och insats efter säsong — fasad och utomhus på sommaren, inomhusmålning på vintern — så att du syns för rätt jobb när det är aktuellt."
+      },
+      {
+        "q": "Före/efter-bilder, hur funkar det?",
+        "a": "Du fotar jobben med mobilen, vi gör innehåll av det. Före/efter är några av de starkaste bilderna ett måleri kan visa."
+      }
+    ]
+  }
+]
