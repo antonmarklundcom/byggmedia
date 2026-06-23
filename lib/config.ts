@@ -32,6 +32,9 @@ export const site = {
   // Pricing (real). Flip NEXT_PUBLIC_VISA_PRIS=false to hide prices everywhere.
   showPrice: bool(process.env.NEXT_PUBLIC_VISA_PRIS, true),
   priceFrom: process.env.NEXT_PUBLIC_PRIS_FRAN || "Från 1 995 kr/mån",
+  // Ordinary price — the campaign price (priceFrom) is reduced from this.
+  // Leave NEXT_PUBLIC_PRIS_ORD empty to hide the campaign framing.
+  priceOrdinary: process.env.NEXT_PUBLIC_PRIS_ORD || "2 995 kr/mån",
 
   // Pending integrations (added later, one at a time).
   ghlCalendarUrl: process.env.NEXT_PUBLIC_GHL_CALENDAR_URL || "",

@@ -4,6 +4,7 @@ import { PageHeader } from "@/components/PageHeader";
 import { ProcessTimeline } from "@/components/ProcessTimeline";
 import { CtaSection } from "@/components/CtaSection";
 import { CtaButton } from "@/components/CtaButton";
+import { PriceTag } from "@/components/PriceTag";
 import { Reveal } from "@/components/Reveal";
 import { Faq } from "@/components/Faq";
 import { CheckIcon } from "@/components/Icons";
@@ -58,8 +59,7 @@ export default function PricingPage() {
               {site.showPrice ? (
                 <>
                   <p className="eyebrow">Riktpris</p>
-                  <p className="mt-3 font-display text-4xl text-ink sm:text-5xl">{site.priceFrom}</p>
-                  <p className="mt-2 text-sm text-muted">exkl. moms</p>
+                  <PriceTag size="lg" className="mt-3" />
                   <p className="mt-5 max-w-md text-muted">
                     De flesta lösningar bygger på ett månadspris där hosting, underhåll och support
                     ingår. Du får ett exakt pris i din offert.

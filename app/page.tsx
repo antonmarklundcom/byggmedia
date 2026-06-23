@@ -5,6 +5,7 @@ import { services } from "@/content/services";
 import { branscher } from "@/lib/branscher";
 import { getAllGuides } from "@/lib/guides";
 import { CtaButton } from "@/components/CtaButton";
+import { LeadForm } from "@/components/LeadForm";
 import { TrustBar } from "@/components/TrustBar";
 import { ProcessTimeline } from "@/components/ProcessTimeline";
 import { CtaSection } from "@/components/CtaSection";
@@ -23,9 +24,9 @@ export default function HomePage() {
 
   return (
     <>
-      {/* HERO — results/desire-led */}
+      {/* HERO — results/desire-led, with the qualify form inline (form-first) */}
       <section className="relative overflow-hidden">
-        <div className="shell grid gap-10 py-14 sm:py-20 lg:grid-cols-[1.1fr_0.9fr] lg:items-center lg:py-24">
+        <div className="shell grid gap-10 py-14 sm:py-16 lg:grid-cols-[1.05fr_0.95fr] lg:items-start lg:py-20">
           <div>
             <Reveal>
               <p className="eyebrow">Marknadsföring för bygg & hantverk · {site.region}</p>
@@ -44,32 +45,6 @@ export default function HomePage() {
               </p>
             </Reveal>
             <Reveal delay={3}>
-              <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center">
-                <CtaButton withArrow>Få kostnadsfri analys</CtaButton>
-                <a href={site.phoneTel} className="btn-outline">
-                  <PhoneIcon className="h-4 w-4 text-accent" />
-                  {site.phone}
-                </a>
-              </div>
-            </Reveal>
-            <Reveal delay={4}>
-              <p className="mt-5 text-sm text-muted">
-                {site.responsePromise} · Ingen bindningstid · Fast offert innan start
-              </p>
-            </Reveal>
-          </div>
-
-          {/* Editorial pull-quote card (accsoft) — no fake imagery. */}
-          <Reveal delay={2} className="lg:justify-self-end">
-            <div className="rounded-card border border-line bg-accsoft p-7 sm:p-9">
-              <p className="font-display text-2xl leading-snug text-ink sm:text-3xl">
-                “Den som syns och svarar först{" "}
-                <span className="emph">vinner jobbet</span>.”
-              </p>
-              <p className="mt-4 text-sm text-muted">
-                Vi gör marknadsföring för takläggare, elektriker, snickare, VVS, byggföretag och
-                målare — i hela Sverige.
-              </p>
               <ul className="mt-6 space-y-2.5 text-sm">
                 {[
                   "Hemsida byggd för att kontaktas",
@@ -82,12 +57,47 @@ export default function HomePage() {
                   </li>
                 ))}
               </ul>
+            </Reveal>
+            <Reveal delay={4}>
+              <div className="mt-7 flex flex-col gap-3 sm:flex-row sm:items-center">
+                <a href={site.phoneTel} className="btn-outline">
+                  <PhoneIcon className="h-4 w-4 text-accent" />
+                  {site.phone}
+                </a>
+                <p className="text-sm text-muted">
+                  {site.responsePromise} · Ingen bindningstid
+                </p>
+              </div>
+            </Reveal>
+          </div>
+
+          {/* Inline qualify form — always visible (form-first). Buttons elsewhere
+              open the same multi-step flow in a modal. */}
+          <Reveal delay={2} className="lg:justify-self-end lg:w-full lg:max-w-md">
+            <div className="rounded-card border border-line bg-soft p-5 shadow-sm sm:p-7">
+              <p className="eyebrow">Kostnadsfri analys</p>
+              <h2 className="mt-1 text-2xl">Få fler förfrågningar</h2>
+              <div className="mt-5">
+                <LeadForm variant="qualify" />
+              </div>
             </div>
           </Reveal>
         </div>
       </section>
 
       <TrustBar />
+
+      {/* Editorial pull-quote band (accsoft) — the mock's quote motif. */}
+      <section className="shell pt-14 sm:pt-20">
+        <Reveal>
+          <div className="rounded-card bg-accsoft p-8 sm:p-12">
+            <p className="mx-auto max-w-3xl text-center font-display text-2xl leading-snug text-ink sm:text-3xl">
+              ”Du är bäst på ditt hantverk — inte på att jaga kunder på Google.{" "}
+              <span className="emph">Det är vårt jobb.</span>”
+            </p>
+          </div>
+        </Reveal>
+      </section>
 
       {/* SERVICES */}
       <section className="shell py-16 sm:py-20">
