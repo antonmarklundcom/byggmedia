@@ -11,14 +11,15 @@ const config: Config = {
     extend: {
       colors: {
         // Variant B "Resultatlöftet" — ljus-editorial. LOCKED tokens.
-        canvas: "var(--canvas)",
-        ink: "var(--ink)",
-        muted: "var(--muted)",
-        accent: "var(--accent)",
-        accsoft: "var(--accsoft)",
-        line: "var(--line)",
-        soft: "var(--soft)",
-        card: "var(--card)",
+        // rgb(var(--*-c) / <alpha-value>) so opacity modifiers work.
+        canvas: "rgb(var(--canvas-c) / <alpha-value>)",
+        ink: "rgb(var(--ink-c) / <alpha-value>)",
+        muted: "rgb(var(--muted-c) / <alpha-value>)",
+        accent: "rgb(var(--accent-c) / <alpha-value>)",
+        accsoft: "rgb(var(--accsoft-c) / <alpha-value>)",
+        line: "rgb(var(--line-c) / <alpha-value>)",
+        soft: "rgb(var(--soft-c) / <alpha-value>)",
+        card: "rgb(var(--card-c) / <alpha-value>)",
       },
       fontFamily: {
         // display = Newsreader (serif), body/UI = Hanken Grotesk
